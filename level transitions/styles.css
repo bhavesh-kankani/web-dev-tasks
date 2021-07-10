@@ -1,0 +1,74 @@
+textarea{
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition-timing-function: ease;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+#box{
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: flex-end;
+    background-color: black;
+    border: 8px solid black;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin: auto;
+    width: 50%;
+}
+#button1{
+    height: 25px;
+    width: 75px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#button2{
+    height: 25px;
+    width: 75px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#r1 {
+    height: 200px;
+    width: 150px;
+    background-color: purple;
+}
+
+#r2 {
+    height: 200px;
+    width: 150px;
+    background-color: violet;
+}
+
+#r3 {
+    height: 200px;
+    width: 150px;
+    background-color: palevioletred;
+}
+
+#r4 {
+    height: 200px;
+    width: 150px;
+    background-color: orangered;
+}
+
+#r5 {
+    height: 200px;
+    width: 150px;
+    background-color: yellow;
+}
